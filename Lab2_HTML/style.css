@@ -20,7 +20,7 @@ ul{
 
 a{
     text-decoration: none;
-    font: rgb(111, 28, 28);
+    color: rgb(111, 28, 28);
     font-weight: bold;
     cursor: pointer;
 }
