@@ -1,17 +1,17 @@
 /* 1. додайте клас до h1 і зробіть весь текст для класу заглавними літерами (text-transform: uppercase) */
 h1 {
   text-transform: uppercase;
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 /* 2. придумайте назву класа для списку цілей і встановіть колір шрифту червоним у шістнадцятковому форматі */
 .goals {
   color: #ff0000;
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 /* 3. пунктам списку цілей за класом дайте колір заднього фону yellow і нахилений шрифт (font-style: italic)*/
 .list__item {
   font-style: italic;
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 /* 4. для усіх впорядкованих списків задайте рамку 1px solid red */
 ol {
@@ -20,20 +20,20 @@ ol {
 /* 5. задайте id (ідентифікатор) для заголовку першого рівня і встановіть на нього колір шрифта green */
 #title {
   color: green;
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 /* 6. для всіх посилань на PDF-документи втсановити стиль: колір зелений і font-style: italic */
 a[href$=".pdf"] {
   color: green;
   font-style: italic;
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 /* 7. для всіх посилань втсановити колір шрифта violet та заберыть підкреслення (text-decoration: none).
    Питання: чому PDF-файли вже не підкреслені але все ж лишились зелені? */ /*перший має більшу специфічність і коли конфліктують кілька стилів то стиль з більшою специфічністю виграє*/
 a {
   color: violet;
   text-decoration: none;
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 /* 8. Встановіть всі заглавні літери (text-transform: uppercase) для усіх вкладнених списків другого рівня*/
 li li {
@@ -62,8 +62,8 @@ li.bold {
 /* 12. другий довгий абзац і передостанній "Написати нам листа" вирійвняйте по правому краю, додайте синю рамку навколо та встановіть розмір шрифта 20px */
 .right{
   text-align: right;
-  border: 1px solid blue;44
-  font: 20px;
+  border: 1px solid blue;
+  font-size: 20px;
   box-sizing: border-box;
 }
 /* 13. на тег h1 встановіть колір шрифта червоний. Чому він не спрацює і що можна зробити щоб він спрацював?*/
