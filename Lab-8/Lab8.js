@@ -39,7 +39,7 @@ function Task4(){
 let num = 12345;
 console.log("Beginning number:" + num);
 
-let encryptedNum = btoa(num);
+let encryptedNum = btoa(num);//Base 64
 console.log("Encripted number: " + encryptedNum );
 
 console.log("Unencripted number: " + atob(encryptedNum));
