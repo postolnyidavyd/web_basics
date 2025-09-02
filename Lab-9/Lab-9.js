@@ -115,7 +115,7 @@ class Student{
 
 }
 
-const studentNew = new Student("David", "17", ["webbasic", "physic", "math"]);
+const studentNew = new Student("David", "17", ["webbasics", "physic", "math"]);
 
 class Person{
     constructor(name, age) {
@@ -192,7 +192,7 @@ const  teen = new Teenager("Юля", 15, ["Оля", "Міша", "Настя"], "
 // console.log([].toString(), typeof([]));
 //тому що метод toString працює до елементів масиву а не до самого масиву
 
-Array.prototype.toString = function (){
-    return "[object Array]"
-}
-console.log([].toString())
+// Array.prototype.toString = function (){
+//     return "[object Array]"
+// }
+console.log([].toString(), typeof([]))
